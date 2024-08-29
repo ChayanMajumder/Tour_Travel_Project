@@ -1,10 +1,13 @@
 import React from 'react'
+import Places from '../components/Places/Places'
 
 function PlacesRoute() {
   return (
-    <div>
-      Places Route
-    </div>
+    <>
+      <div className="pt-14">
+      <Places />
+      </div>
+    </>
   )
 }
 
